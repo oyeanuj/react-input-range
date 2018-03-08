@@ -9,7 +9,7 @@ A CodePen demo is available [here](http://codepen.io/davidchin/full/GpNvqw/).
 
 ## Installation
 
-1. Install `react-input-range` using npm. `npm install react-input-range`
+1. Install `react-input-range` using npm (or [yarn]). `npm install react-input-range`
 2. Import `react-input-range` to use `InputRange` component.
 3. Optionally, import `react-input-range/lib/css/index.css` if you want to apply the default styling.
 
@@ -88,6 +88,10 @@ To specify the amount of increment/decrement
 
 ### InputRange#props
 
+#### allowSameValues: boolean
+
+Set to `true` to allow `minValue` and `maxValue` to be the same.
+
 #### ariaLabelledby: string
 
 Set `aria-labelledby` attribute to your component.
@@ -103,6 +107,10 @@ Override the default CSS classes applied to your component and its sub-component
 #### disabled: boolean
 
 If this property is set to true, your component is disabled. This means you'll not able to interact with it.
+
+#### draggableTrack: boolean
+
+If this property is set to true, you can drag the entire track.
 
 #### formatLabel: (value: number, type: string): string
 
@@ -172,19 +180,22 @@ If this property is set to true, the label for the *current* value will be displ
 
 ## Development
 
-If you want to work on this project locally, you need to grab all of its dependencies.
+If you want to work on this project locally, you need to grab all of its dependencies, for which 
+we recommend using [yarn]. You can find the instructions to setup yarn [here](https://yarnpkg.com/docs/install).
 ```
-npm install
+yarn install
 ```
 
 After that, you should be able run to preview
 ```
-npm run dev
+yarn dev
 ```
 
 To test
 ```
-npm test
+yarn test
 ```
 
 Contributions are welcome. :)
+
+[yarn]: https://yarnpkg.com/

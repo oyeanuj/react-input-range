@@ -1,3 +1,92 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/davidchin/react-input-range/compare/v1.2.2...v1.3.0) (2018-01-06)
+
+
+### Features
+
+* Allow min and max to have same value ([#114](https://github.com/davidchin/react-input-range/issues/114)) ([8b36de7](https://github.com/davidchin/react-input-range/commit/8b36de7))
+
+
+
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/davidchin/react-input-range/compare/v1.2.0...v1.2.1) (2017-07-14)
+
+
+### Bug Fixes
+
+* Always set slider dragging back to false ([#98](https://github.com/davidchin/react-input-range/issues/98)) ([d22fa26](https://github.com/davidchin/react-input-range/commit/d22fa26))
+
+
+
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/davidchin/react-input-range/compare/v1.1.5...v1.2.0) (2017-07-09)
+
+
+### Features
+
+* Add track dragging functionality ([#91](https://github.com/davidchin/react-input-range/issues/91)) ([4a8ca26](https://github.com/davidchin/react-input-range/commit/4a8ca26))
+
+
+
+<a name="1.1.5"></a>
+## [1.1.5](https://github.com/davidchin/react-input-range/compare/v1.1.4...v1.1.5) (2017-07-09)
+
+
+### Bug Fixes
+
+* Fix Typescript definition file ([4935745](https://github.com/davidchin/react-input-range/commit/4935745))
+
+
+
+<a name="1.1.4"></a>
+## [1.1.4](https://github.com/davidchin/react-input-range/compare/v1.1.3...v1.1.4) (2017-05-20)
+
+
+### Bug Fixes
+
+* Remove event listener handleTouchEnd when Slider unmount ([#89](https://github.com/davidchin/react-input-range/issues/89)) ([660fa5c](https://github.com/davidchin/react-input-range/commit/660fa5c))
+
+
+
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/davidchin/react-input-range/compare/v1.1.2...v1.1.3) (2017-05-03)
+
+
+### Changes
+
+* Include prop-types package to support React 15.5 ([1939f6c](https://github.com/davidchin/react-input-range/commit/1939f6c))
+
+
+
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/davidchin/react-input-range/compare/v1.1.1...v1.1.2) (2017-03-30)
+
+
+### Bug Fixes
+
+* **build:** Fix requiring React as an external dependency ([903eadb](https://github.com/davidchin/react-input-range/commit/903eadb))
+
+
+
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/davidchin/react-input-range/compare/v1.1.0...v1.1.1) (2017-03-28)
+
+
+### Bug Fixes
+
+* Only uglify and minify min.js files ([c73a491](https://github.com/davidchin/react-input-range/commit/c73a491))
+
+
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/davidchin/react-input-range/compare/v1.0.2...v1.1.0) (2017-03-26)
+
+
+### Features
+
+* Add a callback prop responsible for notifying the start of any interaction ([#66](https://github.com/davidchin/react-input-range/issues/66)) ([4ca6ea2](https://github.com/davidchin/react-input-range/commit/4ca6ea2))
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/davidchin/react-input-range/compare/v1.0.1...v1.0.2) (2017-02-01)
 

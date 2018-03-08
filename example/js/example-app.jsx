@@ -15,6 +15,14 @@ export default class ExampleApp extends React.Component {
         min: 5,
         max: 10,
       },
+      value5: {
+        min: 3,
+        max: 7,
+      },
+      value6: {
+        min: 3,
+        max: 7,
+      },
     };
   }
 
@@ -43,15 +51,33 @@ export default class ExampleApp extends React.Component {
           formatLabel={value => value.toFixed(2)}
           value={this.state.value3}
           onChange={value => this.setState({ value3: value })}
+          onChangeStart={value => console.log('onChangeStart with value =', value)}
           onChangeComplete={value => console.log(value)} />
 
         <InputRange
           maxValue={20}
           minValue={0}
-          labelSuffix="kg"
+          formatLabel={value => `${value}kg`}
           value={this.state.value4}
           onChange={value => this.setState({ value4: value })}
           onChangeComplete={value => console.log(value)} />
+
+        <InputRange
+          draggableTrack
+          maxValue={20}
+          minValue={0}
+          onChange={value => this.setState({ value5: value })}
+          onChangeComplete={value => console.log(value)}
+          value={this.state.value5} />
+
+        <InputRange
+          allowSameValues
+          draggableTrack
+          maxValue={20}
+          minValue={0}
+          onChange={value => this.setState({ value6: value })}
+          onChangeComplete={value => console.log(value)}
+          value={this.state.value6} />
       </form>
     );
   }
