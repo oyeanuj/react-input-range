@@ -2,6 +2,10 @@
 
 `InputRange` is a React component allowing users to input numeric values within a specific range. It can accept a single value, or a range of values (min/max). By default, basic styles are applied, but can be overridden depending on your design requirements.
 
+---
+
+**NOTE**: To see the list of changes in this branch, [look at this commit](https://github.com/oyeanuj/react-input-range/tree/b22dbc1b317407dee36c1d0acf2e7be6717d25cf) and a few before this
+
 [![Build Status](https://travis-ci.org/davidchin/react-input-range.svg?branch=master)](https://travis-ci.org/davidchin/react-input-range)
 
 ## Demo
@@ -180,7 +184,7 @@ If this property is set to true, the label for the *current* value will be displ
 
 ## Development
 
-If you want to work on this project locally, you need to grab all of its dependencies, for which 
+If you want to work on this project locally, you need to grab all of its dependencies, for which
 we recommend using [yarn]. You can find the instructions to setup yarn [here](https://yarnpkg.com/docs/install).
 ```
 yarn install
